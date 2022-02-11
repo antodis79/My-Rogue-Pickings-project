@@ -1,0 +1,142 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 110px;
+}
+
+h1 {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: #77a466;
+    text-transform: uppercase;
+    line-height: 23px;
+    margin: 0;
+    padding: 48px 0 0 26px;
+}
+
+h1 span {
+    color: black;
+}
+
+nav {
+    float: right;
+    padding: 46px 0;
+}
+
+nav ul {
+    margin: 0;
+	padding: 0;
+} 
+
+nav ul li {
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+    padding: 0 10px;
+	display: inline;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:#77a466;
+}
+
+/***** TOP SECTION *****/
+
+img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color:#77a466;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+/***** BOTTOM SECTION *****/
+
+.section-one,
+.section-two,
+.section-three {
+    border-top: 1px solid #eee;
+    float: left;
+}
+
+.section-one,
+.section-two {
+    border-right: 1px solid #eee;
+}
+
+.section-one h3,
+.section-two h3,
+.section-three h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.section-one h3 {
+    padding: 10px 0;
+}
+
+.section-one ul {
+    color: #77a466;
+    list-style: none;
+    padding: 10px 160px 0 0;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.section-two h3,
+.section-three h3 {
+    padding: 10px 0 0 30px;
+}
+
+.section-two p {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 10px 60px 0 30px;
+}
+
+.section-three p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 130px 0 30px;
+} 
+
+/***** FOOTER *****/
+
+footer h2 {
+    height: 50px;
+    margin: 0 auto;
+	border-top: 1px solid #eee;
+	text-align: center;
+    clear: both;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+footer h2 span {
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    text-transform: lowercase;
+    font-weight: 400;
+}
